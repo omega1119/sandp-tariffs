@@ -13,7 +13,7 @@ This project uses a Jupyter notebook (`main.ipynb`) to:
 Install dependencies with:
 
 ```bash
-pip install pandas yfinance matplotlib
+pip install pandas yfinance matplotlib mplfinance
 ```
 
 ## Usage
