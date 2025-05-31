@@ -8,11 +8,22 @@ This project uses a Jupyter notebook (`main.ipynb`) to:
 - Clean the file by removing malformed header rows
 - Analyze and plot S&P 500 performance over the first 100 trading days of recent U.S. presidents
 
-## Requirements
+## 🛠 Setup Instructions
 
-Install dependencies with:
+### 1. Conda Environment
 
-```bash
+Create and activate the Conda environment (`yfinance`):
+
+```
+conda create -n yfinance python=3.11 -y
+conda activate yfinance
+```
+
+### 2. Install Dependencies
+
+Install necessary packages:
+
+```
 pip install pandas yfinance matplotlib mplfinance
 ```
 
